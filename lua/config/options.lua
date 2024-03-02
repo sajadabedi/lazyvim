@@ -11,3 +11,5 @@ opt.relativenumber = true
 --     "folke/trouble.nvim",
 --     enabled = false,
 --   },
+--
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
